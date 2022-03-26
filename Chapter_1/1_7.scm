@@ -1,7 +1,7 @@
 #lang sicp
 
 (define (abs x) 
-   (if (< x 0) -x x))
+   (if (< x 0) (- x) x))
 
 (define (square x) 
    (* x x))
